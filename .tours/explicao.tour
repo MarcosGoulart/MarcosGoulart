@@ -1,0 +1,56 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Explicação",
+  "steps": [
+    {
+      "file": "README.md",
+      "description": "Todas as atividades possuem um link do GitHub classroom, para criar sua cópia da atividade.",
+      "line": 3
+    },
+    {
+      "file": "README.md",
+      "description": "Seleciona os casos de teste e copia para o [App.java](src/App.java).",
+      "line": 22,
+      "selection": {
+        "start": {
+          "line": 22,
+          "character": 1
+        },
+        "end": {
+          "line": 28,
+          "character": 59
+        }
+      }
+    },
+    {
+      "file": "src/App.java",
+      "description": "Colamos os casos de teste em App.java",
+      "line": 4
+    },
+    {
+      "file": "src/Matematica.java",
+      "description": "Implementar a solução. Não pode usar o `Math.pow`.",
+      "line": 4
+    },
+    {
+      "file": "README.md",
+      "description": "Após cumprir o caso de teste básico, vai adicionando novos casos de teste.",
+      "line": 31
+    },
+    {
+      "file": "README.md",
+      "description": "Existem casos de teste em que se precisa implementar classe, métodos e lógica, como este aqui.",
+      "line": 63
+    },
+    {
+      "file": "src/App.java",
+      "description": "Existe caso de teste que precisam ser implementados para compilar, pelo menos.",
+      "line": 19
+    },
+    {
+      "file": "src/Texto.java",
+      "description": "Implementar o esqueleto, pelo menos:\n\n```java\nclass Texto {\n  static int contar(String str, char c) {\n    int contagem = 0;\n    // \"miolo\" a lógica\n    return contagem;\n  }\n}\n```",
+      "line": 2
+    }
+  ]
+}
